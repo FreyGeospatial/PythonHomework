@@ -20,3 +20,4 @@ def count_digit(str_input):
 
 count_digit("950 Main Street")
 count_digit("1600 pennsylvania ave. nw Washington, DC 20500")
+
