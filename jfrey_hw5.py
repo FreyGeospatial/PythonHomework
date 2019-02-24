@@ -39,7 +39,7 @@ for i in range(0, len(contents1_list)):
         f3.write(contents1_list[i] + "\t\t" +
                  contents1_list[i+1] + "\t\t\t" +
                  contents2_list[i+1] + "\t\t\t" +
-                 str(int(contents2_list[i+1]) - int(contents1_list[i+1])))
+                 str(int(contents1_list[i+1]) - int(contents2_list[i+1])))
         f3.write("\n")
 
 # separate data values from data summary
